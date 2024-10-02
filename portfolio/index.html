@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="all">
+      <header id="header">
+        <div id="logo">
+          <img src="./Assests/logo.jpg" alt="my photo" />
+          <span>Helu Alex</span>
+        </div>
+
+        <nav id="nav">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skill">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="home" id="home">
+        <div class="text-container">
+          <h1>Hello, I'm Helina Alemu</h1>
+          <p>I'm a website developer and UI/UX designer.</p>
+          <button>Let's work together</button>
+        </div>
+      </div>
+
+      <div class="about" id="about">
+        <h1>About Me</h1>
+        <p>A coding enthusiast crafting digital experiences in Ethiopia.</p>
+        <div class="about-content">
+          <img src="./Assests/logo.jpg" alt="photo" class="about-photo" />
+          <div class="about-text">
+            <h2>Get to know me!</h2>
+            <p>
+              Hey! It's Helina Alemu. I am a firm believer in the power of
+              continuous learning. The fast-paced nature of web development
+              means there is always something new to explore and master. Whether
+              it's diving into the latest JavaScript framework or staying
+              up-to-date with emerging design trends, I am constantly seeking
+              opportunities to expand my knowledge and enhance my craft.
+              Collaboration is at the heart of what I do. I thrive in team
+              environments where I can work alongside designers, content
+              creators, and other developers to bring ideas to life. By
+              leveraging my strong communication skills and ability to adapt to
+              different perspectives, I strive to create cohesive and impactful
+              digital experiences. Contact me here.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills" id="skill">
+        <h1>My Skills</h1>
+        <div id="skills">
+          <div class="skill-box">HTML</div>
+          <div class="skill-box">CSS</div>
+          <div class="skill-box">JavaScript</div>
+          <div class="skill-box">Bootstrap</div>
+          <div class="skill-box">React</div>
+          <div class="skill-box">Express</div>
+          <div class="skill-box">Node.js</div>
+          <div class="skill-box">Git</div>
+          <div class="skill-box">MySQL</div>
+          <div class="skill-box">WordPress</div>
+          <div class="skill-box">Shopify</div>
+          <div class="skill-box">Squarespace</div>
+        </div>
+        <div class="resume">
+          <h1>My Resume</h1>
+          <p>Download here</p>
+          <button>
+            <a
+              href="./Assests/HelinaAlemuResume (1).pdf"
+              download="Your-Resume.pdf"
+              >Download Resume</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div class="projects" id="projects">
+        <h1>PROJECTS</h1>
+        <div class="container">
+          <div class="project-row">
+            <div class="name">
+              <h2>Project 1</h2>
+              <p>
+                This app replicates Apple's product showcase, offering detailed
+                product information, pricing, and specifications. It boasts a
+                visually striking and user-friendly interface.
+              </p>
+            </div>
+            <div class="pic">
+              <img src="./Assests/apple.jpg" alt="project 1" />
+            </div>
+          </div>
+
+          <div class="project-row">
+            <div class="pic">
+              <img src="./Assests/netflix.jpg" alt="project 2" />
+            </div>
+            <div class="name">
+              <h2>Project 2</h2>
+              <p>
+                This project replicates Netflix's interface. It enables users to
+                browse and watch movies and TV shows.
+              </p>
+            </div>
+          </div>
+
+          <div class="project-row">
+            <div class="name">
+              <h2>Project 3</h2>
+              <p>
+                A user-friendly platform for shopping, offering product
+                discovery, easy checkout, and secure transactions.
+              </p>
+            </div>
+            <div class="pic">
+              <img src="./Assests/amazone.jpg" alt="project 3" />
+            </div>
+          </div>
+
+          <div class="project-row">
+            <div class="pic">
+              <img src="./Assests/evangadi.png" alt="project 4" />
+            </div>
+            <div class="name">
+              <h2>Project 4</h2>
+              <p>
+                Evangadi Forum is an online community designed to facilitate
+                knowledge sharing among Evangadi students, where they can ask
+                and answer programming questions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact" id="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+          <p><i class="fas fa-phone"></i> <span>Phone:</span> +2519777743073</p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> <span>Address:</span> Addis
+            Ababa, Ethiopia
+          </p>
+          <p>
+            <i class="fas fa-envelope"></i>
+            <span>Email:</span> Helinaaalemu@gmail.com
+          </p>
+        </div>
+      </div>
+      <footer>
+        <p>Get in touch</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/yourusername" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/yourusername" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/yourusername" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <p>
+          &copy;
+          <?php echo date("Y"); ?>
+          Helina Alemu
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
